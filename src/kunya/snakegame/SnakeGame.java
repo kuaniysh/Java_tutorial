@@ -38,6 +38,7 @@ public class SnakeGame extends JPanel implements ActionListener{
             g.drawLine(0, yy, WIDTH * SCALE, yy);
         }
 
+
         for (int d = 0; d < s.length; d++){
             g.setColor(color(20, 30, 150));
             g.fillRect(s.snakeX[d]*SCALE+1, s.snakeY[d]*SCALE+1, SCALE-1, SCALE-1);
