@@ -11,7 +11,6 @@ public class Snake {
     public int snakeX[] = new int[100];
     public int snakeY[] = new int [100];
     
-
     public Snake(int x0, int y0, int x1, int y1){
         snakeX[0] = x0;
         snakeY[0] = y0;
